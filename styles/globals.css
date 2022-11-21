@@ -13,14 +13,91 @@ a {
 
 * {
   box-sizing: border-box;
+} 
+
+.LocailtyHeader{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #b04488;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: 'Righteous', cursive;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.localitiesContainer, .HomeCardsContainer, .CollectionsBody{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+}
+
+.CollectionsBody{
+  padding-top: 32px;
+}
+
+.slugContainer{
+  background-color: aqua;
+  padding: 3rem;
+  height: 100vh;
+}
+
+.Home{
+  padding-top: 2rem;
+  height: fit-content;
+  font-size: 2rem;
+  font-family: 'Kaushan Script';
+  letter-spacing: 2px;
+  cursor: default;
+}
+
+.Home p{
+  text-align: center;
+  margin-top: 0;
+}
+
+.Home .title{  
+  margin-bottom: 0;
+  cursor: default;
+  font-size: 6rem; 
+  color: #b04488;
+  font-family: 'Carter One', cursive;
+  text-align: center;
+}
+
+.city{
+  color: #1c7cdc;
+}
+
+.CollectionsContainer{
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.CollectionsHeader{
+  font-size: 20px;
+}
+
+.CollectionTitle{
+  font-size: 3rem;
+  color: #b04488;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.CollectionSubtitle{
+  color: #1c7cdc;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-detail-container{
+  padding: 5rem;
+  display: flex;
+  height: 100vh;
 }

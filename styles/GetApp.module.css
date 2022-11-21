@@ -1,0 +1,92 @@
+
+.AppContainer{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.AppImage{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.imagehere{
+    background-image: url('../Assets/mobile.png');
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.AppBody{
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #b04488;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 2px;
+}
+
+.AppBody p{
+    font-size: 1.2rem;
+}
+
+.MailOrPhone{
+    font-size: 1.5rem;    
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold;
+    display: flex;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: fit-content;
+}
+
+.inputBox input{
+    width: 20rem;
+    font-size: 18px;
+    border: 2px solid #1c7cdc;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.SendButton{
+    font-size: 18px;
+    background-color: #1c7cdc;
+    border: 1px solid #1c7cdc;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.download{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.inputBox .send:hover, .btnDownload:hover{
+    cursor: pointer;
+}
+
+.DApp, .download, .MailOrPhone, .inputBox{
+    align-self: left;
+    justify-content: left;
+}
+

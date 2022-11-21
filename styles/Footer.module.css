@@ -1,0 +1,82 @@
+.FooterHeader{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    background-color: #b04488;   
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+
+.title{
+    cursor: pointer;    
+    font-family: 'Carter One', cursive;
+}
+
+.Dropdowns{
+    align-self: center;
+    display: flex;
+    height: 2rem;
+    gap: 2rem;
+}
+
+.DDown{
+    width: 10rem;
+}
+
+.FooterContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.FooterBox ul{
+    display: inline;
+    list-style: none;
+    margin: 0;
+}
+
+.FooteSectionHead{
+    margin: 0;
+}
+
+.FooterBox ul li a:hover{
+    color: rgb(43, 40, 40);
+}
+
+.icons{
+    display: flex;
+    font-size: 2rem;
+    padding-top: 1rem;
+    gap: 10px;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.dnl{
+    display: flex;
+    gap: 1rem;
+}
+
+.btnDnl{    
+    height: 3rem;
+    width: 10rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.FootFooter{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    padding-bottom: 10px;
+
+}

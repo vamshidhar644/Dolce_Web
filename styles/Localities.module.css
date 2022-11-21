@@ -1,0 +1,21 @@
+.LocalitiesCard{
+    text-align: center;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 3px solid #1c7cdc;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;    
+}
+
+.LocalitiesCard:hover{
+    background-color: #1c7cdc;
+    color: white;  
+    box-shadow: 0 0 20px 0 #b04488, 0 0 20px 0 #b04488;
+}
+
+.dot{
+    font-size: 10px;
+}

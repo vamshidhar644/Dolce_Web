@@ -1,0 +1,25 @@
+
+.CollectionsCard .p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1c7cdc;   
+}
+
+.CardImage{
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 23rem;
+    width: 15rem;
+}
+
+.CardImage:hover{    
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 8px 20px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.CardImage img{
+    height: 100%;
+    width: 100%;
+}

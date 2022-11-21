@@ -1,0 +1,37 @@
+.container{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 100px; 
+    font-size: 18px; 
+    align-items: center;
+    position: fixed;
+}
+
+.listItem{
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #1c7cdc;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.list{
+    width: 100%;
+    text-align: right;
+    font-family: 'Michroma', sans-serif;
+}
+
+.listItem:hover{
+    color: #b04488;
+}
+
+.title{
+    color: #b04488;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    font-family: 'Carter One', cursive;
+}

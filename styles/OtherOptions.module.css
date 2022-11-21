@@ -1,0 +1,37 @@
+
+.OtherOptionsContainer{
+    height: fit-content;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.title{
+    padding-left: 2rem;
+}
+
+.OtherOptionsHeader{
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.DessertsBody, .CitiesBody{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.DessertsList, .CitiesList{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 7px;
+    list-style: none;
+    color: rgb(65, 62, 62);
+}
+
+.DessertsList li a:hover, .CitiesList li a:hover{
+    color: black;
+}

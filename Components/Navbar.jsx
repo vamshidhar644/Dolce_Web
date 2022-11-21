@@ -11,10 +11,10 @@ const Navbar = () => {
           <Link href="">Get app</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="">Signin</Link>
+          <Link href="/signup">Signup</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="">Signup</Link>
+          <Link href="">Signin</Link>
         </li>
       </ul>
     </div>

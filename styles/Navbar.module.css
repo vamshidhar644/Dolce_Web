@@ -1,13 +1,11 @@
 .container{
-    height: 8vh;
+    height: 10vh;
     width: 100%;
-    background-color: black;
     display: flex;
     align-items: center;
     padding: 0 100px; 
     font-size: 18px; 
     align-items: center;
-    position: fixed;
 }
 
 .listItem{
@@ -34,4 +32,11 @@
     font-weight: bolder;
     font-size: 2.4rem;
     font-family: 'Carter One', cursive;
+    background-image: url('../Assets/logo.png');
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,10 +1,18 @@
 
 .CollectionsCard .p{
     text-align: center;
-    font-weight: 400;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #1c7cdc;   
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: #1c7cdc;  
+    margin: 0; 
+}
+
+.price{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #b04488;
+    font-weight: 400;
 }
 
 .CardImage{

@@ -51,7 +51,6 @@ a {
 }
 
 .Home{
-  padding-top: 2rem;
   height: fit-content;
   justify-content: center;
   align-items: center;
@@ -104,9 +103,15 @@ a {
 
 .card-detail-container{
   display: flex;
-  height: 100vh;
+  padding: 4rem;
 }
 
 .SignupContainer{
+  color: black;
+  
+}
+
+.mainContainer{
+  padding: 4rem;
   height: 90vh;
 }

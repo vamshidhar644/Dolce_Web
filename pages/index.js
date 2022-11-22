@@ -41,6 +41,7 @@ const Home = ({IntroData, HomeCardsData, LocalitiesData, CollectionsData, Collec
       <div className="localitiesContainer">
         {LocalitiesData?.map((locality) => <Localities key={locality._id} locality={locality}/>)}
       </div>
+      {/* {console.log(CollectionCardData[0])} */}
       {/* {console.log(LocalitiesData)} */}
       <GetApp /> 
       <OtherOptions/>

@@ -3,17 +3,16 @@ import React from 'react';
 const signup = () => {
   return (
     <div className="SignupContainer">
-      <div className="mainContainer"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4"></div>
+      <div className="mainContainer">
+        <div className="row">
+          <div className="col-md-4"></div>
 
-          <div class="col-md-6 main">
+          <div className="col-md-6 main">
             <h1> Sign Up </h1>
             <form action="/sign_up" method="POST">
               <input
                 type="text"
-                class="na"
+                className="na"
                 id="name"
                 name="name"
                 placeholder="Name"
@@ -22,7 +21,7 @@ const signup = () => {
               <br />
               <input
                 type="email"
-                class="na"
+                className="na"
                 id="email"
                 name="email"
                 placeholder="Email"
@@ -31,7 +30,7 @@ const signup = () => {
               <br />
               <input
                 type="number"
-                class="na"
+                className="na"
                 id="phno"
                 name="phno"
                 placeholder="Mobile"
@@ -40,7 +39,7 @@ const signup = () => {
               <br />
               <input
                 type="text"
-                class="na"
+                className="na"
                 id="password"
                 name="password"
                 placeholder="Password"
@@ -49,7 +48,7 @@ const signup = () => {
               <br />
               <button
                 onclick="validate"
-                class="form-submit-button"
+                className="form-submit-button"
                 type="submit"
                 value="Submit"
                 id="submit"
@@ -59,7 +58,7 @@ const signup = () => {
               <br />
               <br />
               <button
-                class="form-submit-button"
+                className="form-submit-button"
                 type="reset"
                 value="Reset"
                 id="reset"

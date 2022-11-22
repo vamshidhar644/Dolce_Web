@@ -108,12 +108,14 @@ a {
 
 .SignupContainer{
   color: black;
-  
+  display: flex;
+  justify-content: center;
 }
 
 .mainContainer{
   padding: 4rem;
   height: 90vh;
+  width: 40rem;
 }
 
 .form{
@@ -138,6 +140,7 @@ a {
   box-shadow: 5px 5px 5px #eee;
   text-shadow: none;
   background-size: auto;
+  cursor: pointer;
 }
 .h5{
   font-weight: bold;

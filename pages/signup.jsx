@@ -29,7 +29,7 @@ const signup = () => {
               />
               <br />
               <input
-                type="number"
+                type="text"
                 className="na"
                 id="phno"
                 name="phno"

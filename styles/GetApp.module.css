@@ -19,6 +19,12 @@
     background-repeat: no-repeat;
 }
 
+.Radio{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
 .AppBody{
     padding-top: 2rem;
     align-items: center;

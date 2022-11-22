@@ -6,7 +6,7 @@ import { urlFor } from '../lib/client'
 const Collections = ({collectionscards : {name, slug, cardImage, cardText}}) => {
   return ( 
     <div className={styles.CollectionsCard}> 
-      <Link href={`/NextPages/${slug.current}`}>
+      <Link href={`/collection/${slug.current}`}>
         <div className={styles.CardImage}>
           <img 
               src={urlFor(cardImage && cardImage[0])}

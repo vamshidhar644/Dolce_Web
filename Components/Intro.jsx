@@ -6,12 +6,10 @@ import { urlFor } from '../lib/client'
 const Intro = ({homecards: {name, slug, cardImage, cardText}}) => {
   return (
     <div className={styles.HomeCards}> 
-      <Link href={`/NextPages/${slug.current}`}>
+      <Link href={`/intro/${slug.current}`}>
         <div className={styles.CardImage}>
           <img 
               src={urlFor(cardImage && cardImage[0])}
-              width={250}
-              height={250}
             />
         </div>       
           <p className={styles.p}>{cardText}</p>

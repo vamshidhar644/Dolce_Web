@@ -27,7 +27,7 @@ const Home = ({IntroData, HomeCardsData, LocalitiesData, CollectionsData, Collec
 
       <div className="CollectionsContainer">
         <div className="CollectionsHeader">
-            <h1 className="CollectionTitle">Collections</h1>
+            <h1 className="CollectionTitle">Popular dolces</h1>
             <p className="CollectionSubtitle">{CollectionsData[0].subtitle}</p>
             <hr/>
         </div>

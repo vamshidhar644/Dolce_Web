@@ -3,7 +3,6 @@
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    margin: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1c7cdc;   
 }
@@ -11,8 +10,8 @@
 .CardImage{
     border-radius: 1rem;
     overflow: hidden;
-    height: 23rem;
-    width: 15rem;
+    height: 12rem;
+    width: 12rem;
 }
 
 .CardImage:hover{    

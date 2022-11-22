@@ -1,22 +1,27 @@
 
+
+.HomeCards{
+    width: 10rem;
+    height: 10rem;
+}
 .HomeCards .p{
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    margin: 5px;
+    margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1c7cdc;   
 }
 
 .CardImage{
     border-radius: 1rem;
-    overflow: hidden;
-    height: 15rem;
-    width: 15rem;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%; 
 }
 
 .CardImage:hover{    
-    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 8px 20px 0 rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 4px 10px 0 rgba(0, 0, 0, 0.5); 
 }
 
 .CardImage img{

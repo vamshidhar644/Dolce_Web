@@ -1,12 +1,12 @@
 import React from 'react'
 import {client} from '../../lib/client';
 
-const CardDetails = ({HomeCard, CollectionCard}) => {
+const CardDetails = ({HomeCard}) => {
   
   return (
     <div className='card-detail-container'>        
         <h1>
-          {/* {CollectionCard.cardText} */}
+          {HomeCard.cardText}
         </h1>
     </div>
   )
@@ -14,11 +14,9 @@ const CardDetails = ({HomeCard, CollectionCard}) => {
 
 export const getStaticPaths = async () => {
     const Homequery = `*[_type == "cards"]{slug{current}}`;
-    const Collquery = `*[_type == "CollectionCards"]{slug{current}}`;
 
 
     const HomeCards = await client.fetch(Homequery);
-    const CollCards = await client.fetch(Collquery);
 
     const paths = HomeCards.map((HomeCards) => ({
       params: {
@@ -33,13 +31,11 @@ export const getStaticPaths = async () => {
  
 export const getStaticProps = async ({ params: 
     {slug}}) => {
-    const HomeCardsQuery = `*[_type == "cards" && slug.current == '${slug}'][0]`;
-    const CollectionCardsQuery = `*[_type == "CollectionCards" && slug.current == '${slug}'][0]`;    
+    const HomeCardsQuery = `*[_type == "cards" && slug.current == '${slug}'][0]`; 
 
     const HomeCard = await client.fetch(HomeCardsQuery);
-    const CollectionCard = await client.fetch(CollectionCardsQuery);
     return {
-      props: {HomeCard, CollectionCard}
+      props: {HomeCard}
     }
   }
 

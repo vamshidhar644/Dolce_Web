@@ -5,7 +5,7 @@ import {AiFillFacebook, AiFillTwitterCircle, AiFillInstagram, AiFillYoutube, AiF
 import {FaGooglePlay} from 'react-icons/fa'
 import {BsApple} from 'react-icons/bs'
 
-function Footer() {
+function Footer() {    
   return (
     <div className={styles.container}>
         <div className={styles.FooterHeader}>

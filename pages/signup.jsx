@@ -1,12 +1,8 @@
 import React from 'react';
 
 const signup = () => {
-  return (
-<<<<<<< HEAD
     
-    <div className='SignupContainer'>
-        
-=======
+  return (
     <div className="SignupContainer">
       <div className="mainContainer">
         <div className="row">
@@ -43,7 +39,7 @@ const signup = () => {
               />
               <br />
               <input
-                type="text"
+                type="password"
                 className="na"
                 id="password"
                 name="password"
@@ -77,8 +73,8 @@ const signup = () => {
           <div class="col-md-4"></div>
         </div>
       </div>
->>>>>>> b48cdc769a395af0e8acdf990bb1733fe7fbc0da
     </div>
+    
   );
 };
 

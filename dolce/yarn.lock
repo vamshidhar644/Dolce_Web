@@ -1396,7 +1396,7 @@
     "make-error" "^1.3.0"
     "object-assign" "^4.1.1"
 
-"@sanity/client@^3.2.0", "@sanity/client@^3.3.3":
+"@sanity/client@^3.3.3":
   "integrity" "sha512-WSvnroCHqboUeyY0nl71vDPKmfurXI0mtqdNDb5u8MW00CAHRyCt1+Sgy39D/g+6R35FYniV31vTSTo3ofim0A=="
   "resolved" "https://registry.npmjs.org/@sanity/client/-/client-3.4.1.tgz"
   "version" "3.4.1"
@@ -1711,11 +1711,6 @@
   "integrity" "sha512-/GeFmwHMQVTCBvo4qAQgZJHKB1UzU8u42gnjs6696PWh626G4xbElb3/YJ9sM1PwTc0OaYrvIDes8qUTvrlhrA=="
   "resolved" "https://registry.npmjs.org/@sanity/icons/-/icons-1.3.6.tgz"
   "version" "1.3.6"
-
-"@sanity/image-url@^0.140.22":
-  "integrity" "sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA=="
-  "resolved" "https://registry.npmjs.org/@sanity/image-url/-/image-url-0.140.22.tgz"
-  "version" "0.140.22"
 
 "@sanity/image-url@^1.0.1":
   "integrity" "sha512-AdKQ3zMk7WdoNwoJPrAvQhW+kUtBldBX0nHtnGy+rwmgsCQ0rAXasrgH43Fhmsp/yB6piiq+F2d5qEuBFsdQVg=="
@@ -7450,13 +7445,6 @@
   "integrity" "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
-
-"next-sanity-image@^3.2.1":
-  "integrity" "sha512-lnynR/h7kD5ueVxQoam8ElKXb+bGWuU1cP+PCwx1NzIiBUHM2wBMnvmpt+emubGocMaIURT/iwPU46VnmB9rsQ=="
-  "resolved" "https://registry.npmjs.org/next-sanity-image/-/next-sanity-image-3.2.1.tgz"
-  "version" "3.2.1"
-  dependencies:
-    "@sanity/image-url" "^0.140.22"
 
 "next-tick@^1.1.0":
   "integrity" "sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ=="

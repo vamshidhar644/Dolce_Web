@@ -27,8 +27,8 @@ const CardDetails = ({ CollectionCard }) => {
                 </select>
             </div>
             <div className='buttons'>
-                <button type='button' className='add-to-cart' onClick={() => onAdd(product, qty)}>Add to cart</button>
-                <button type='button' className='buy-now' onClick="">Buy now</button>
+                <button type='button' className='add-to-cart' >Add to cart</button>
+                <button type='button' className='buy-now'>Buy now</button>
             </div>
       </div>
       {/* <h1>{cardText}</h1> */}

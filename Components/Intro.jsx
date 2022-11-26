@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Intro.module.css';
 import Link from 'next/link';
-import { urlFor } from '../dolce/lib/client';
+import { urlFor } from '../lib/client';
 
 const Intro = ({ homecards: { name, slug, cardImage, cardText } }) => {
   return (

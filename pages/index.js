@@ -9,7 +9,7 @@ import {
 } from '../Components/index';
 
 import React from 'react';
-import { client } from '../dolce/lib/client';
+import { client } from '../lib/client';
 
 const Home = ({
   IntroData,

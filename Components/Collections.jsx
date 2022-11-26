@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Collections.module.css';
 import Link from 'next/link';
-import { urlFor } from '../dolce/lib/client';
+import { urlFor } from '../lib/client';
 
 const Collections = ({
   collectionscards: { price, slug, cardImage, cardText },

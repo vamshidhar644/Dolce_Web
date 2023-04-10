@@ -31,7 +31,6 @@ const CardDetails = ({ CollectionCard }) => {
                 <button type='button' className='buy-now'>Buy now</button>
             </div>
       </div>
-      {/* <h1>{cardText}</h1> */}
     </div>
   );
 };
@@ -40,6 +39,7 @@ export const getStaticPaths = async () => {
   const Homequery = `*[_type == "CollectionCards"]{slug{current}}`;
 
   const HomeCards = await client.fetch(Homequery);
+  
   const paths = HomeCards.map((HomeCards) => ({
     params: { slug: HomeCards.slug.current },
   }));
